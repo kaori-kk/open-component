@@ -1,0 +1,74 @@
+.account-page {
+  display: flex;
+}
+
+.account-page img {
+  width: 500px;
+  height: 730px;
+}
+
+.account-page-details {
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.account-page-details h1{
+  color: #003F91;
+}
+
+.input-name {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.account-page-details h2 {
+  font-size: 15px;
+}
+
+.input {
+  padding: 10 60px;
+}
+
+.input-all {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.input-all input[type='text'] {
+  font: 15px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.3em;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  border: none;
+  border-bottom: 2px solid #1b2538;
+  background: transparent;
+}
+
+.input-email input[type='text']:focus {
+  border-bottom: 2px solid #009FB7;
+  outline: none;
+}
+
+.first-name input[type='text']:focus {
+  border-bottom: 2px solid #009FB7;
+  outline: none;
+}
+
+.last-name input[type='text']:focus {
+  border-bottom: 2px solid #009FB7;
+  outline: none;
+}
+
+.password input[type='text']:focus {
+  border-bottom: 2px solid #009FB7;
+  outline: none;
+}
